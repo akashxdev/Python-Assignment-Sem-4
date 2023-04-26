@@ -54,5 +54,6 @@ vertices = len(graph)
 result = kruskal(graph, vertices)
 
 # print the result
+print("Akash Sarkar")
 for edge in result:
     print(edge[0], '-', edge[1], ':', edge[2])
