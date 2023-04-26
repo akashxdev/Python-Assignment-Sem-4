@@ -24,7 +24,8 @@ def fractional_knapsack(capacity: float, items: List[Tuple[float, float]]) -> fl
     
     # Return the maximum value that can be carried in the knapsack
     return max_value(capacity)
-
+    
+print("Akash Sarkar")
 items = [(10, 60), (20, 100), (30, 120)]
 capacity = 50
 max_value = fractional_knapsack(capacity, items)
